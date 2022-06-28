@@ -1,0 +1,172 @@
+/*
+Name: Site.css
+Author: Travis Rosen
+Description: Styling for portfolio website
+Date: 5/9/2021
+*/
+
+/*
+--General Styling for web page.--
+*/
+
+/*
+Styling for all elements.
+*/
+
+/*
+Html height percent.
+*/
+html {
+    height: 100%;
+}
+/*
+Styling for body of web page.
+*/
+body {
+    background-image: linear-gradient(to right, #0b0c10, #1F2833);
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 30px;
+    padding-top: 0px;
+
+  
+}
+/*
+Color and font for h1 elements.
+*/
+h1 {
+    color: #66fcf1;
+    font-family: "Titillium Web";
+}
+
+h2 {
+    color: wheat;
+    font-family: "Titillium Web";
+}
+
+h4 {
+    color: #66fcf1;
+    font-family: "Titillium Web";
+
+}
+/*
+Font for general paragraph elements.
+*/
+p {
+    font-family: "Titillium Web";
+}
+
+hr {
+    color: wheat
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi-bold {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: wheat;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 8px;
+  }
+  
+
+
+footer {
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+
+
+
+
+.container-about {
+    margin: 200px;
+    
+}
+
+.abt-pic {
+    border-color: #66fcf1;
+    
+    border-radius: 50px;
+    width: 20%;
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+
+p {
+    font-family: "Titillium Web";
+    color: wheat;
+
+}
+
+.card {
+    background-color: #0b0c10;
+    transition: 0.3s;
+    width: 40%;
+  
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .cardp {
+    color: wheat;
+  }
+
+  .zoom {
+    transition: transform .2s;
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.05); 
+    -webkit-transform: scale(1.05); 
+    transform: scale(1.05);
+
+  }
+
+  .returnlink {
+    text-decoration: none;
+    color: wheat;
+  }
+
